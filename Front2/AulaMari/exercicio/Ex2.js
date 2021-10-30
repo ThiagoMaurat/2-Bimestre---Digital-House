@@ -1,0 +1,51 @@
+//Paulo Rossi Thiago Maurat Joao Rocha Lays Maiara Wagner Sena Wallex de Franca Ricardo Ramalho
+let formulario = document.createElement("form");
+let label1 = document.createElement("label");
+let label2 = document.createElement("label");
+let input2 = document.createElement("input");
+let label3 = document.createElement("label");
+let input3 = document.createElement("input");
+let botaoEnviar = document.createElement("button");
+let botaoCancelar = document.createElement("button");
+let div1 = document.createElement("div");
+let Titulo = document.createElement("h3");
+
+document.body.style.fontFamily =
+  "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif";
+Titulo.innerText = "Login";
+formulario.appendChild(Titulo);
+document.body.appendChild(formulario);
+formulario.appendChild(label1);
+formulario.appendChild(label2);
+formulario.appendChild(input2);
+label2.innerText = "E-mail";
+formulario.appendChild(label3);
+formulario.appendChild(input3);
+label3.innerText = "Senha";
+div1.appendChild(botaoEnviar);
+div1.appendChild(botaoCancelar);
+formulario.appendChild(div1);
+botaoEnviar.innerText = "Enviar";
+botaoCancelar.innerText = "Cancelar";
+
+document.body.style.width = "100vh";
+document.body.style.height = "100vh";
+formulario.style.height = "200px";
+formulario.style.width = "200px";
+formulario.style.display = "flex";
+formulario.style.flexDirection = "column";
+formulario.style.justifyContent = "space-between";
+formulario.style.alignItems = "center";
+formulario.style.backgroundColor = "lightblue";
+formulario.style.borderRadius = "10px";
+formulario.style.padding = "10px";
+formulario.style.margin = "10px";
+formulario.style.marginLeft = "auto";
+formulario.style.marginRight = "auto";
+div1.style.display = "flex";
+div1.style.gap = "10px";
+botaoEnviar.style.backgroundColor = "pink";
+botaoEnviar.style.borderRadius = "10px";
+botaoCancelar.style.backgroundColor = "pink";
+botaoCancelar.style.borderRadius = "10px";
+div1.style.marginTop = "10px";
