@@ -1,8 +1,6 @@
 
         // Exercício 1
-
-package Exercicio;
-
+package Aula02;
 import java.util.Scanner;
 
 public class Exercicio {
